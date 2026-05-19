@@ -28,6 +28,7 @@ assignment3/
 ├── model.py               ← Core Transformer architecture
 ├── train.py               ← Training loop, greedy decoding, BLEU eval
 └── W_b_train.py           ← Extended trainer with W&B ablation experiments
+└── w_b_model.py
 ```
 
 ---
@@ -314,17 +315,6 @@ Install all with:
 pip install -r requirements.txt
 python -m spacy download de_core_news_sm en_core_web_sm
 ```
-
----
-
-## 📝 Submission Checklist
-
-- [ ] All `raise NotImplementedError` stubs implemented
-- [ ] W&B report is **public** and the link is updated in this README
-- [ ] GitHub repository is up to date
-- [ ] Checkpoint accessible via Google Drive link embedded in `Transformer.__init__`
-- [ ] Training and test splits strictly separated — no data leakage
-- [ ] Submitted on [Gradescope](https://www.gradescope.com) before **19th May 2026, 23:59**
 
 ---
 
